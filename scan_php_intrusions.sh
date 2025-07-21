@@ -15,8 +15,8 @@ fi
 
 # Файли логів
 DATE_TAG=$(date +'%Y-%m-%d_%H-%M-%S')
-LOG_FILE="log_gate_${DATE_TAG}.txt"
-TIME_LOG="log_gate_time.txt"
+LOG_FILE="log_${DATE_TAG}.txt"
+TIME_LOG="log_time.txt"
 
 # Кольори
 RED='\033[0;31m'
